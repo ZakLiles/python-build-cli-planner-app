@@ -29,5 +29,4 @@ class DateReminder(DeadlinedReminder):
 
     @abstractmethod
     def is_due(self):
-        if self.date <= datetime.now():
-            return True
+       return self.date <= datetime.now()
