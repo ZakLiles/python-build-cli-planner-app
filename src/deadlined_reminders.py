@@ -1,5 +1,5 @@
 from abc import ABCMeta, abstractmethod, ABC
-from collections import Iterable
+from collections.abc import Iterable
 from dateutil.parser import parse
 from datetime import datetime
 
